@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Habit Tracker Notion Template</title>
+<meta name="description" content="# How to Use 📚
+This Habit Tracker Notion template is designed to help you build and maintain positive habits, break negative ones, and achieve your goals. ">
+<style>
+body{font-family:Georgia,serif;max-width:800px;margin:0 auto;padding:20px 24px;color:#222;line-height:1.7}
+h1{font-size:2em;color:#1a1a2e}h2{color:#16213e;margin-top:2em}
+a{color:#0066cc}header{border-bottom:2px solid #eee;padding-bottom:12px;margin-bottom:2em}
+footer{margin-top:3em;padding-top:1em;border-top:1px solid #eee;font-size:.85em;color:#666}
+</style>
+</head>
+<body>
+<header><a href="/atlas-seo-content/">← All Articles</a></header>
+<article>
+<h1>Habit Tracker Notion Template</h1>
+<p><h1>How to Use 📚</h1>
+This Habit Tracker Notion template is designed to help you build and maintain positive habits, break negative ones, and achieve your goals. To get started, simply import this template into your Notion account and follow the instructions below.</p><p><h2>Introduction 🌟</h2>
+The Habit Tracker template consists of three main databases: Habits, Daily Log, and Weekly Review. These databases work together to help you track your progress, identify patterns, and make data-driven decisions to improve your habits.</p><p><h2>Habits Database 📝</h2>
+The Habits database is where you'll store information about each habit you want to track. The table headers and properties are as follows:
+- <strong>Habit Name</strong>: The name of the habit you want to track (e.g., "Exercise", "Meditation", etc.)
+- <strong>Description</strong>: A brief description of the habit and why it's important to you
+- <strong>Goal</strong>: The specific goal you want to achieve with this habit (e.g., "Exercise for 30 minutes, 3 times a week")
+- <strong>Target Frequency</strong>: How often you want to perform this habit (e.g., "Daily", "Weekly", etc.)
+- <strong>Streak</strong>: A formula that calculates the current streak of consecutive days you've performed this habit (`=if(prop("Completed") = true, prop("Streak") + 1, 0)`)
+- <strong>Longest Streak</strong>: A formula that calculates the longest streak you've ever achieved with this habit (`=if(prop("Streak") > prop("Longest Streak"), prop("Streak"), prop("Longest Streak"))`)</p><p>Example rows:
+| Habit Name | Description | Goal | Target Frequency | Streak | Longest Streak |
+| --- | --- | --- | --- | --- | --- |
+| Exercise | Improve physical health | Exercise for 30 minutes, 3 times a week | Weekly | 3 | 10 |
+| Meditation | Reduce stress and improve focus | Meditate for 10 minutes, daily | Daily | 5 | 15 |
+| Reading | Improve knowledge and vocabulary | Read for 30 minutes, daily | Daily | 2 | 20 |</p><p><h2>Daily Log Database 📅</h2>
+The Daily Log database is where you'll track your daily progress with each habit. The table headers and properties are as follows:
+- <strong>Date</strong>: The date you're logging progress for
+- <strong>Habit</strong>: The habit you're logging progress for (linked to the Habits database)
+- <strong>Completed</strong>: A checkbox indicating whether you completed the habit for the day
+- <strong>Notes</strong>: Any additional notes or comments about your progress</p><p>Example rows:
+| Date | Habit | Completed | Notes |
+| --- | --- | --- | --- |
+| 2023-02-20 | Exercise | 🗹️ | Went for a 30-minute run |
+| 2023-02-20 | Meditation | 🗹️ | Meditated for 10 minutes before bed |
+| 2023-02-21 | Reading | ❌ | Didn't have time to read today |</p><p><h2>Weekly Review Database 📊</h2>
+The Weekly Review database is where you'll reflect on your progress over the past week and plan for the upcoming week. The table headers and properties are as follows:
+- <strong>Week</strong>: The week you're reviewing (e.g., "2023-02-20 - 2023-02-26")
+- <strong>Habit</strong>: The habit you're reviewing (linked to the Habits database)
+- <strong>Progress</strong>: A formula that calculates the percentage of days you completed the habit (`=count(filter(prop("Completed") = true, prop("Habit") = prop("Habit"))) / 7 * 100`)
+- <strong>Notes</strong>: Any additional notes or comments about your progress</p><p>Example rows:
+| Week | Habit | Progress | Notes |
+| --- | --- | --- | --- |
+| 2023-02-20 - 2023-02-26 | Exercise | 71% | Missed one day, but overall a good week |
+| 2023-02-20 - 2023-02-26 | Meditation | 100% | Successfully meditated every day this week |
+| 2023-02-27 - 2023-03-05 | Reading | 57% | Struggled to find time to read, need to prioritize |</p><p><h2>Usage Instructions 📚</h2>
+1. Start by adding habits to the Habits database. Be specific about what you want to achieve with each habit, and make sure your goals are measurable and achievable.
+2. Each day, log your progress in the Daily Log database. Check the box next to each habit you completed, and add any additional notes or comments.
+3. At the end of each week, review your progress in the Weekly Review database. Reflect on what went well, what didn't, and what you can improve on in the upcoming week.
+4. Use the formulas in the Habits and Weekly Review databases to track your streaks and progress over time. This will help you identify patterns and make data-driven decisions to improve your habits.</p><p><h2>Tips and Variations 🤔</h2>
+- To make the template more challenging, you can add a " penalty" system, where you deduct a certain amount of money or points for each day you miss a habit.
+- To make the template more rewarding, you can add a "reward" system, where you earn points or money for each day you complete a habit.
+- You can also add additional databases or tables to track other aspects of your life, such as nutrition, sleep, or productivity.
+- Experiment with different formulas and properties to customize the template to your needs and preferences.</p><p>By following these instructions and using the Habit Tracker Notion template, you'll be well on your way to building positive habits, breaking negative ones, and achieving your goals. Remember to be patient, consistent, and kind to yourself throughout the process. Good luck! 🎉</p>
+</article>
+<footer>Published by Atlas Growth · 876 words</footer>
+</body></html>

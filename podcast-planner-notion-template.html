@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Podcast Planner Notion Template</title>
+<meta name="description" content="# How to Use 📚
+This Podcast Planner Notion template is designed to help you organize and manage your podcast episodes, guests, and production schedule. To ">
+<style>
+body{font-family:Georgia,serif;max-width:800px;margin:0 auto;padding:20px 24px;color:#222;line-height:1.7}
+h1{font-size:2em;color:#1a1a2e}h2{color:#16213e;margin-top:2em}
+a{color:#0066cc}header{border-bottom:2px solid #eee;padding-bottom:12px;margin-bottom:2em}
+footer{margin-top:3em;padding-top:1em;border-top:1px solid #eee;font-size:.85em;color:#666}
+</style>
+</head>
+<body>
+<header><a href="/atlas-seo-content/">← All Articles</a></header>
+<article>
+<h1>Podcast Planner Notion Template</h1>
+<p><h1>How to Use 📚</h1>
+This Podcast Planner Notion template is designed to help you organize and manage your podcast episodes, guests, and production schedule. To get started, simply import this template into your Notion workspace and begin filling in the sections. Each section is designed to help you streamline your podcast production process, from planning and research to recording and publishing.</p><p><h2>Podcast Episodes 📻</h2>
+This database will store all your podcast episodes, including their title, description, guest information, and production status.</p><p>| Property | Type |
+| --- | --- |
+| Episode Title | Text |
+| Episode Description | Text |
+| Guest Name | Text |
+| Guest Bio | Text |
+| Production Status | Select (Planned, Recorded, Edited, Published) |
+| Release Date | Date |
+| Episode Notes | Text |</p><p>Example rows:</p><p>| Episode Title | Episode Description | Guest Name | Guest Bio | Production Status | Release Date | Episode Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Introduction to Podcasting | An introductory episode to our podcast | John Doe | John is a podcasting expert | Planned | 2024-03-01 | Need to research podcasting basics |
+| Interview with Jane Smith | An interview with Jane Smith about her new book | Jane Smith | Jane is a bestselling author | Recorded | 2024-03-15 | Need to edit and add music |
+| Top 10 Productivity Tips | A solo episode about productivity tips |  |  | Edited | 2024-03-22 | Need to add intro and outro |</p><p><h2>Guests 🤝</h2>
+This database will store information about your podcast guests, including their bio, contact information, and episode appearances.</p><p>| Property | Type |
+| --- | --- |
+| Guest Name | Text |
+| Guest Bio | Text |
+| Contact Email | Email |
+| Contact Phone | Phone |
+| Episode Appearances | Relation (Podcast Episodes) |</p><p>Example rows:</p><p>| Guest Name | Guest Bio | Contact Email | Contact Phone | Episode Appearances |
+| --- | --- | --- | --- | --- |
+| John Doe | John is a podcasting expert | johndoe@example.com | 123-456-7890 | Introduction to Podcasting |
+| Jane Smith | Jane is a bestselling author | janesmith@example.com | 987-654-3210 | Interview with Jane Smith |
+| Bob Johnson | Bob is a entrepreneur | bobjohnson@example.com | 555-123-4567 |  |</p><p><h2>Production Schedule 📅</h2>
+This calendar view will help you visualize your podcast production schedule, including recording, editing, and publishing dates.</p><p>To create a formula to calculate the production timeline, you can use the following text formula:
+`=dateAdd(prop("Release Date"), -7, "days")` to calculate the recording date, and `=dateAdd(prop("Release Date"), -3, "days")` to calculate the editing date.</p><p>Example rows:</p><p>| Episode Title | Recording Date | Editing Date | Release Date |
+| --- | --- | --- | --- |
+| Introduction to Podcasting | 2024-02-22 | 2024-02-25 | 2024-03-01 |
+| Interview with Jane Smith | 2024-03-08 | 2024-03-12 | 2024-03-15 |
+| Top 10 Productivity Tips | 2024-03-15 | 2024-03-19 | 2024-03-22 |</p><p><h2>Research and Notes 📝</h2>
+This section will store your research and notes for each episode, including articles, books, and interviews.</p><p>| Property | Type |
+| --- | --- |
+| Episode Title | Text |
+| Research Notes | Text |
+| Article Links | URL |
+| Book References | Text |
+| Interview Questions | Text |</p><p>Example rows:</p><p>| Episode Title | Research Notes | Article Links | Book References | Interview Questions |
+| --- | --- | --- | --- | --- |
+| Introduction to Podcasting | Need to research podcasting basics | https://example.com/podcasting-101 | Podcasting for Dummies | What inspired you to start podcasting? |
+| Interview with Jane Smith | Need to research Jane's book | https://example.com/janes-book | Jane's Book | What's the main theme of your book? |
+| Top 10 Productivity Tips | Need to research productivity tips | https://example.com/productivity-tips | Getting Things Done | What's your favorite productivity tip? |</p><p><h2>Promotion and Marketing 📢</h2>
+This section will store your promotion and marketing plans for each episode, including social media posts, email newsletters, and guest outreach.</p><p>| Property | Type |
+| --- | --- |
+| Episode Title | Text |
+| Social Media Posts | Text |
+| Email Newsletter | Text |
+| Guest Outreach | Text |
+| Promotion Notes | Text |</p><p>Example rows:</p><p>| Episode Title | Social Media Posts | Email Newsletter | Guest Outreach | Promotion Notes |
+| --- | --- | --- | --- | --- |
+| Introduction to Podcasting | Create a Facebook post about the episode | Send a newsletter to our subscribers | Reach out to John Doe for promotion | Need to create a Twitter thread about the episode |
+| Interview with Jane Smith | Create a Twitter post about the episode | Send a newsletter to Jane's subscribers | Reach out to Jane's team for promotion | Need to create a Facebook event for the episode |
+| Top 10 Productivity Tips | Create an Instagram post about the episode | Send a newsletter to our productivity-focused subscribers | Reach out to productivity influencers for promotion | Need to create a LinkedIn post about the episode |</p><p><h2>Analytics and Feedback 📊</h2>
+This section will store your analytics and feedback for each episode, including listener numbers, engagement, and comments.</p><p>| Property | Type |
+| --- | --- |
+| Episode Title | Text |
+| Listener Numbers | Number |
+| Engagement | Number |
+| Comments | Text |
+| Feedback Notes | Text |</p><p>Example rows:</p><p>| Episode Title | Listener Numbers | Engagement | Comments | Feedback Notes |
+| --- | --- | --- | --- | --- |
+| Introduction to Podcasting | 100 | 10 | Great episode! | Need to improve sound quality |
+| Interview with Jane Smith | 500 | 50 | Loved the interview! | Need to ask more follow-up questions |
+| Top 10 Productivity Tips | 200 | 20 | Useful tips! | Need to provide more examples |</p><p>By using this Podcast Planner Notion template, you'll be able to streamline your podcast production process, from planning and research to recording and publishing. Remember to regularly update your databases and calendars to ensure you're on track with your podcast goals. Happy podcasting! 🎙️</p>
+</article>
+<footer>Published by Atlas Growth · 1094 words</footer>
+</body></html>

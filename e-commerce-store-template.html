@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-commerce Store Template</title>
+<meta name="description" content="# How to Use 📚
+This E-commerce Store Template is designed to help you manage and optimize your online store. It includes several databases and pages to tra">
+<style>
+body{font-family:Georgia,serif;max-width:800px;margin:0 auto;padding:20px 24px;color:#222;line-height:1.7}
+h1{font-size:2em;color:#1a1a2e}h2{color:#16213e;margin-top:2em}
+a{color:#0066cc}header{border-bottom:2px solid #eee;padding-bottom:12px;margin-bottom:2em}
+footer{margin-top:3em;padding-top:1em;border-top:1px solid #eee;font-size:.85em;color:#666}
+</style>
+</head>
+<body>
+<header><a href="/atlas-seo-content/">← All Articles</a></header>
+<article>
+<h1>E-commerce Store Template</h1>
+<p><h1>How to Use 📚</h1>
+This E-commerce Store Template is designed to help you manage and optimize your online store. It includes several databases and pages to track products, orders, customers, and marketing efforts. To get started, import this template into your Notion account and follow the instructions below.</p><p><h2>Store Overview 🏢</h2>
+This page provides a high-level overview of your store's performance. It includes the following databases and properties:</p><p>* <strong>Store Metrics</strong>
+	+ Property: `Revenue` (number)
+	+ Property: `Expenses` (number)
+	+ Property: `Profit` (number)
+	+ Property: `Customer Count` (number)
+	+ Property: `Order Count` (number)
+* Formula: `Profit = Revenue - Expenses`</p><p>Example rows:</p><p>| Revenue | Expenses | Profit | Customer Count | Order Count |
+| --- | --- | --- | --- | --- |
+| 1000 | 500 | 500 | 10 | 20 |
+| 2000 | 1000 | 1000 | 20 | 40 |
+| 3000 | 1500 | 1500 | 30 | 60 |</p><p><h2>Products 🛍️</h2>
+This database tracks your store's products, including pricing, inventory, and sales data.</p><p>* <strong>Product Properties</strong>
+	+ Property: `Product Name` (text)
+	+ Property: `Description` (text)
+	+ Property: `Price` (number)
+	+ Property: `Inventory` (number)
+	+ Property: `Sales` (number)
+* Formula: `Inventory Level = Inventory - Sales`</p><p>Example rows:</p><p>| Product Name | Description | Price | Inventory | Sales |
+| --- | --- | --- | --- | --- |
+| T-Shirt | Basic white t-shirt | 19.99 | 100 | 20 |
+| Hoodie | Black hoodie with logo | 29.99 | 50 | 10 |
+| Socks | Pack of 5 socks | 9.99 | 200 | 50 |</p><p><h2>Orders 📦</h2>
+This database tracks customer orders, including order status, shipping, and payment information.</p><p>* <strong>Order Properties</strong>
+	+ Property: `Order ID` (text)
+	+ Property: `Customer Name` (text)
+	+ Property: `Order Date` (date)
+	+ Property: `Total` (number)
+	+ Property: `Status` (select: pending, shipped, delivered, cancelled)
+* Formula: `Order Age = today() - Order Date`</p><p>Example rows:</p><p>| Order ID | Customer Name | Order Date | Total | Status |
+| --- | --- | --- | --- | --- |
+| #123 | John Doe | 2022-01-01 | 50.00 | delivered |
+| #124 | Jane Smith | 2022-01-15 | 100.00 | shipped |
+| #125 | Bob Johnson | 2022-02-01 | 200.00 | pending |</p><p><h2>Customers 👥</h2>
+This database tracks customer information, including contact details, order history, and loyalty program data.</p><p>* <strong>Customer Properties</strong>
+	+ Property: `Customer Name` (text)
+	+ Property: `Email` (email)
+	+ Property: `Phone` (phone)
+	+ Property: `Order Count` (number)
+	+ Property: `Loyalty Points` (number)
+* Formula: `Loyalty Level = if(Loyalty Points > 100, "Gold", if(Loyalty Points > 50, "Silver", "Bronze"))`</p><p>Example rows:</p><p>| Customer Name | Email | Phone | Order Count | Loyalty Points |
+| --- | --- | --- | --- | --- |
+| John Doe | johndoe@example.com | 123-456-7890 | 5 | 150 |
+| Jane Smith | janesmith@example.com | 987-654-3210 | 3 | 75 |
+| Bob Johnson | bobjohnson@example.com | 555-555-5555 | 1 | 25 |</p><p><h2>Marketing 📢</h2>
+This database tracks marketing campaigns, including social media, email, and paid advertising.</p><p>* <strong>Marketing Properties</strong>
+	+ Property: `Campaign Name` (text)
+	+ Property: `Channel` (select: social media, email, paid advertising)
+	+ Property: `Budget` (number)
+	+ Property: `Reach` (number)
+	+ Property: `Conversions` (number)
+* Formula: `ROI = (Conversions / Budget) * 100`</p><p>Example rows:</p><p>| Campaign Name | Channel | Budget | Reach | Conversions |
+| --- | --- | --- | --- | --- |
+| Summer Sale | social media | 1000 | 10000 | 50 |
+| Newsletter | email | 500 | 5000 | 20 |
+| Google Ads | paid advertising | 2000 | 20000 | 100 |</p><p><h2>Inventory Management 📦</h2>
+This page provides a detailed overview of your store's inventory, including stock levels, reorder points, and supplier information.</p><p>* <strong>Inventory Properties</strong>
+	+ Property: `Product Name` (text)
+	+ Property: `Stock Level` (number)
+	+ Property: `Reorder Point` (number)
+	+ Property: `Supplier` (text)
+	+ Property: `Lead Time` (number)
+* Formula: `Reorder Level = if(Stock Level < Reorder Point, "Low", "OK")`</p><p>Example rows:</p><p>| Product Name | Stock Level | Reorder Point | Supplier | Lead Time |
+| --- | --- | --- | --- | --- |
+| T-Shirt | 50 | 20 | Supplier A | 7 |
+| Hoodie | 20 | 10 | Supplier B | 14 |
+| Socks | 100 | 50 | Supplier C | 3 |</p><p><h2>Sales Analytics 📊</h2>
+This page provides a detailed analysis of your store's sales data, including revenue, expenses, and profit margins.</p><p>* <strong>Sales Properties</strong>
+	+ Property: `Date` (date)
+	+ Property: `Revenue` (number)
+	+ Property: `Expenses` (number)
+	+ Property: `Profit` (number)
+	+ Property: `Profit Margin` (number)
+* Formula: `Profit Margin = (Profit / Revenue) * 100`</p><p>Example rows:</p><p>| Date | Revenue | Expenses | Profit | Profit Margin |
+| --- | --- | --- | --- | --- |
+| 2022-01-01 | 1000 | 500 | 500 | 50% |
+| 2022-01-15 | 2000 | 1000 | 1000 | 50% |
+| 2022-02-01 | 3000 | 1500 | 1500 | 50% |</p><p>By using this E-commerce Store Template, you'll be able to streamline your store's operations, track key metrics, and make data-driven decisions to drive growth and profitability.</p>
+</article>
+<footer>Published by Atlas Growth · 892 words</footer>
+</body></html>

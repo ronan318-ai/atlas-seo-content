@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YouTube Channel Planner Notion</title>
+<meta name="description" content="# How to Use 📚
+This YouTube Channel Planner Notion template is designed to help you organize and manage your YouTube channel's content, schedule, and analy">
+<style>
+body{font-family:Georgia,serif;max-width:800px;margin:0 auto;padding:20px 24px;color:#222;line-height:1.7}
+h1{font-size:2em;color:#1a1a2e}h2{color:#16213e;margin-top:2em}
+a{color:#0066cc}header{border-bottom:2px solid #eee;padding-bottom:12px;margin-bottom:2em}
+footer{margin-top:3em;padding-top:1em;border-top:1px solid #eee;font-size:.85em;color:#666}
+</style>
+</head>
+<body>
+<header><a href="/atlas-seo-content/">← All Articles</a></header>
+<article>
+<h1>YouTube Channel Planner Notion</h1>
+<p><h1>How to Use 📚</h1>
+This YouTube Channel Planner Notion template is designed to help you organize and manage your YouTube channel's content, schedule, and analytics. To get started, simply import this template into your Notion account and follow the instructions below. This template is divided into several sections, each with its own database and properties. You can customize the template to fit your specific needs and preferences.</p><p><h2>Channel Overview 📊</h2>
+This section provides an overview of your channel's performance and upcoming content.</p><p><h3>Channel Database</h3>
+| Property | Type | Description |
+| --- | --- | --- |
+| Channel Name | Text | The name of your YouTube channel |
+| Channel Description | Text | A brief description of your channel |
+| Keywords | Multi-Select | Relevant keywords for your channel |
+| Target Audience | Text | Your target audience demographics |
+| Goals | Text | Your channel's goals and objectives |</p><p>Example rows:
+| Channel Name | Channel Description | Keywords | Target Audience | Goals |
+| --- | --- | --- | --- | --- |
+| My Vlog | A daily vlog about my life | vlog, daily vlog, lifestyle | 18-35 years old | Reach 1,000 subscribers |
+| My Gaming Channel | A gaming channel with walkthroughs and reviews | gaming, walkthroughs, reviews | 13-25 years old | Increase watch time by 30% |
+| My Cooking Channel | A cooking channel with recipes and tutorials | cooking, recipes, tutorials | 25-50 years old | Collaborate with 5 other cooking channels |</p><p><h2>Content Calendar 📆</h2>
+This section helps you plan and schedule your content in advance.</p><p><h3>Content Database</h3>
+| Property | Type | Description |
+| --- | --- | --- |
+| Title | Text | The title of your video |
+| Description | Text | A brief description of your video |
+| Tags | Multi-Select | Relevant tags for your video |
+| Category | Select | The category of your video (e.g. vlog, gaming, cooking) |
+| Scheduled Date | Date | The scheduled upload date of your video |
+| Status | Select | The status of your video (e.g. planned, in production, uploaded) |</p><p>Example rows:
+| Title | Description | Tags | Category | Scheduled Date | Status |
+| --- | --- | --- | --- | --- | --- |
+| My Morning Routine | A vlog about my morning routine | morning routine, vlog, lifestyle | Vlog | 2024-09-20 | Planned |
+| Fortnite Gameplay | A gaming video with Fortnite gameplay | Fortnite, gaming, walkthroughs | Gaming | 2024-09-22 | In Production |
+| Chicken Parmesan Recipe | A cooking video with a chicken parmesan recipe | chicken parmesan, cooking, recipes | Cooking | 2024-09-25 | Uploaded |</p><p>Formula suggestion: `=if(Status = "Uploaded", "📹", if(Status = "In Production", "📺", "📅"))` to display a video icon for uploaded videos, a TV icon for in-production videos, and a calendar icon for planned videos.</p><p><h2>Analytics 📊</h2>
+This section helps you track your channel's performance and analytics.</p><p><h3>Analytics Database</h3>
+| Property | Type | Description |
+| --- | --- | --- |
+| Date | Date | The date of the analytics data |
+| Views | Number | The number of views for the day |
+| Watch Time | Number | The total watch time for the day |
+| Engagement | Number | The total engagement (likes, comments, etc.) for the day |
+| Earnings | Number | The total earnings for the day |</p><p>Example rows:
+| Date | Views | Watch Time | Engagement | Earnings |
+| --- | --- | --- | --- | --- |
+| 2024-09-20 | 100 | 500 | 20 | $10 |
+| 2024-09-21 | 150 | 750 | 30 | $15 |
+| 2024-09-22 | 200 | 1000 | 40 | $20 |</p><p>Formula suggestion: `=sum(Views) / sum(Watch Time)` to calculate the average views per watch time.</p><p><h2>Collaboration 🤝</h2>
+This section helps you manage collaborations with other creators.</p><p><h3>Collaboration Database</h3>
+| Property | Type | Description |
+| --- | --- | --- |
+| Collaborator | Text | The name of the collaborator |
+| Project | Text | The project or video title |
+| Role | Select | The role of the collaborator (e.g. guest, host, editor) |
+| Status | Select | The status of the collaboration (e.g. planned, in production, completed) |
+| Deadline | Date | The deadline for the collaboration |</p><p>Example rows:
+| Collaborator | Project | Role | Status | Deadline |
+| --- | --- | --- | --- | --- |
+| John Doe | My Vlog | Guest | Planned | 2024-09-25 |
+| Jane Smith | My Gaming Channel | Host | In Production | 2024-09-30 |
+| Bob Johnson | My Cooking Channel | Editor | Completed | 2024-09-20 |</p><p><h2>Tasks 📝</h2>
+This section helps you manage tasks and to-do lists for your channel.</p><p><h3>Task Database</h3>
+| Property | Type | Description |
+| --- | --- | --- |
+| Task | Text | The task or to-do item |
+| Due Date | Date | The due date for the task |
+| Priority | Select | The priority of the task (e.g. high, medium, low) |
+| Status | Select | The status of the task (e.g. planned, in progress, completed) |
+| Assignee | Text | The person assigned to the task |</p><p>Example rows:
+| Task | Due Date | Priority | Status | Assignee |
+| --- | --- | --- | --- | --- |
+| Edit video | 2024-09-25 | High | In Progress | John Doe |
+| Respond to comments | 2024-09-20 | Medium | Planned | Jane Smith |
+| Upload video | 2024-09-22 | High | Completed | Bob Johnson |</p><p>Formula suggestion: `=if(Status = "Completed", "👍", if(Status = "In Progress", "🕒", "📝"))` to display a thumbs up icon for completed tasks, a clock icon for in-progress tasks, and a pencil icon for planned tasks.</p><p>By using this template, you'll be able to organize and manage your YouTube channel's content, schedule, and analytics in one place. Remember to customize the template to fit your specific needs and preferences, and don't hesitate to reach out if you have any questions or need further assistance.</p>
+</article>
+<footer>Published by Atlas Growth · 1083 words</footer>
+</body></html>
